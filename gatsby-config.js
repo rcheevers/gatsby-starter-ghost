@@ -32,7 +32,7 @@ try {
 
 if (
     process.env.NODE_ENV === `production` &&
-    config.siteUrl === `gatsbystarterghost16047.gatsbyjs.io` &&
+    config.siteUrl === `https://lab3.ghost.io` &&
     !process.env.SITEURL
 ) {
     throw new Error(
